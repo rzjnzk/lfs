@@ -60,6 +60,7 @@ _main()
             sed -n "3,/^\$/ { s/^# // ; s/^#// ; p }" &&
                 exit
 
+    mkdir -pv "${_script_path}/../bin"
     cd "${_script_path}/../bin"
 
     # Create blank img file to build linux on, and mount to loop device.
