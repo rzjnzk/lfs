@@ -11,4 +11,4 @@ jobs:
             - uses: actions/checkout@v2
             - name: Run build script
                 run: |
-                    sudo ./src/build.sh
+                    ./src/build.sh
